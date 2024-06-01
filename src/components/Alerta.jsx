@@ -8,5 +8,6 @@ export const Alerta = ({ alerta }) => {
       <AlertTitle>{error ? "Error" : "Éxito"}</AlertTitle>
       {msg}
     </Alert>
+    
   );
 };
